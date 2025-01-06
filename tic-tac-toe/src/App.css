@@ -1,0 +1,27 @@
+.tic-tac-toe {
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    gap: 5px;
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+.cell {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    text-align: center;
+    cursor: pointer;
+}
+
+.winner {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}

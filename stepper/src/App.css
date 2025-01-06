@@ -1,0 +1,60 @@
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.stepper-container {
+    display: flex;
+    align-items: center;
+    padding: 20px, 0;
+    flex-direction: column;
+    position: relative;
+}
+.stepper-container-util {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+}
+
+.step-container {
+    position: relative;
+    z-index: 2;
+}
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 10px;
+}
+.curr-step {
+    border: 1px solid;
+    border-color: black;
+    padding: 10px;
+    border-radius: 90%;
+    background-color: rgb(202, 199, 199);
+}
+.activate {
+    background-color: green;
+}
+.blue {
+    background-color: blue;
+}
+
+.step-label {
+    margin-top: 5px;
+}
+
+.step-message {
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}

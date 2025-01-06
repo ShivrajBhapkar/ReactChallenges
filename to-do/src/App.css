@@ -1,0 +1,74 @@
+.task-container {
+    display: flex;
+    justify-content: space-between;
+    min-width: 800px;
+    margin-top: 10px;
+}
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-top: 10px;
+}
+.input {
+    width: 250px;
+    border: 1px gray solid;
+    border-radius: 5px;
+}
+.btn {
+    background-color: rgb(27, 27, 224);
+    padding: 5px;
+    border-radius: 3px;
+    color: wheat;
+    font-weight: bold;
+}
+.edit-btn {
+    padding: 5px;
+    margin-right: 2px;
+    width: 50px;
+    height: 25px;
+    border-radius: 2px;
+    border: 1px gray solid;
+    background-color: blue;
+    color: white;
+}
+.del-btn {
+    padding: 5px;
+    width: 50px;
+    height: 25px;
+    border-radius: 2px;
+    border: 1px gray solid;
+    background-color: red;
+    color: white;
+}
+.disabled {
+    padding: 5px;
+    border-radius: 3px;
+}
+.category-container {
+    width: 32%;
+    text-align: center;
+}
+.category-container-title {
+    background-color: blue;
+    padding: 5px;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+}
+
+.currtask-container {
+    margin: 5px;
+    padding: 10px;
+}
+.task-title {
+    padding: 5px;
+}
