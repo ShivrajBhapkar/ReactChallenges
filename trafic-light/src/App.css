@@ -1,0 +1,48 @@
+.red-color {
+    background-color: red;
+}
+.no-red-color{
+  background-color: gray;
+}
+.yellow-color {
+     background-color: yellow;
+}
+.no-yellow-color{
+  background-color: gray;
+}
+.green-color {
+   background-color: green;
+}
+
+.no-green-color{
+  background-color: gray;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 320px;
+   
+}
+.trafic-container{
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 8px;
+  height: 100%;
+  width: 120px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  justify-content: space-between;
+ 
+}
+.trafic-container>div{
+  margin: 3px;
+  height: 50px;
+  width: 50px;
+  border: 1px solid white;
+  border-radius: 50%;
+  
+}
